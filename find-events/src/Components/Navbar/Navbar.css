@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--light-blue);
+    width: 100%;
+    padding: 20px 150px;
+    box-sizing: border-box;
+}
+  
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+  
+.logo-text {
+    color: var(--black);
+}
+  
+.highlight {
+    color: var(--light-yellow); 
+}
+  
+.search-button, .ai-button {
+    background-color: var(--light-yellow); 
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--black);
+}
+  
+.search-button:hover {
+    background-color: var(--yellow); 
+}

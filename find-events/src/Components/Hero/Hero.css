@@ -1,0 +1,141 @@
+.hero-section {
+    width: 100%;
+    padding: 20px 150px;
+    background-color: white;
+    box-sizing: border-box;
+    /* max-width: 1000px; */
+}
+  
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 40px auto;
+}
+  
+.header {
+    flex: 1;
+}
+  
+.header h1 {
+    font-size: 2.75em;
+    font-weight: bold;
+    text-align: left;
+}
+  
+.header .highlight {
+    color: #f0c500;
+}
+  
+.header p {
+    font-size: 1em;
+    color: #555;
+    /* text-align: left; */
+    line-height: 25px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+  
+.image-section {
+    flex: 1;
+    align-items: center;
+    
+}
+  
+.image-section img {
+    width: 400px;
+    height: auto;
+}
+  
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f5f1fc;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+  
+.search-bar input {
+    border: none;
+    background: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+}
+  
+.search-icons {
+    display: flex;
+    align-items: center;
+}
+  
+.search-icons span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: #ebe3fd;
+    cursor: pointer;
+}
+  
+.search-icons .search-icon {
+    color: #666;
+}
+  
+.search-icons .location-icon {
+    color: #333;
+}
+  
+.search-icons .add-icon {
+    color: #333;
+}
+  
+.event-types {
+    text-align: center;
+    margin: 40px 0;
+}
+  
+.event-types-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+
+}
+  
+.event-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 208px;
+}
+  
+.image-placeholder {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; 
+    overflow: hidden; 
+    background-color: #dcdcdc;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .event-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  
